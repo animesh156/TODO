@@ -1,7 +1,21 @@
 
 body {
   background-image: url(https://cdn.pixabay.com/photo/2019/11/01/11/08/landscape-4593909_1280.jpg);
-  background-size: 1370px 635px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+
 }
 
+
+@media only screen and (min-device-width: 600px) {
+  body {
+    background-size: contain;
+  }
+}
+
+
+@media only screen and (min-device-width: 800px) {
+  body {
+    background-size: 100% auto;
+  }
+}
